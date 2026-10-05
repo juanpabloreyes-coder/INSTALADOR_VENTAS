@@ -1,0 +1,14 @@
+# Reporte generado localmente (contiene informacion operativa)
+Dashboard/Instalaciones-Ventas-Report.html
+
+# Instalador compilado (se genera con Crear-Instalador.cmd)
+Instalador-Addins-VENTAS.exe
+*.zip
+
+# Cache local, logs y temporales
+__pycache__/
+Automation/
+*.tmp
+Thumbs.db
+Desktop.ini
+~$*

@@ -1,0 +1,24 @@
+INSTALADOR UNICO DE LOS ADD-INS DE REVIT - VENTAS
+=================================================
+Un solo instalador para los 4 add-ins (SheetSync, RevitSyncLogger, AuditSync y Sync5D), con
+actualizacion automatica. Sync5D ya incluye ocultar el boton viejo "Exportar Presupuesto" de la
+pestana GCPEASA (GCP_PLUGIN) en las PCs que lo tengan; en las que no, no hace nada.
+
+CREAR / PUBLICAR UNA VERSION (solo Juan Pablo)
+  1. Instala y prueba en tu Revit los add-ins como deben quedar.
+  2. Doble clic en Crear-Instalador.cmd.
+     - Genera Instalador-Addins-VENTAS.exe aqui y en 0337_SQDCM\03370_ADDINS_VENTAS.
+     - Publica el paquete en 03370_ADDINS_VENTAS\paquete: las PCs que ya lo tienen instalado se
+       actualizan solas (al iniciar sesion o en la siguiente hora, con Revit cerrado).
+
+INSTALAR EN UNA PC (compañero)
+  Requisitos: Revit 2025 y Desktop Connector con el proyecto TEMPORAL_GCP_BIM sincronizado.
+  1. Cerrar Revit.
+  2. Doble clic en Instalador-Addins-VENTAS.exe (esta en 0337_SQDCM\03370_ADDINS_VENTAS).
+     Si Windows muestra "Windows protegio tu PC": "Mas informacion" > "Ejecutar de todas formas".
+  3. Abrir Revit y elegir "Always Load" en cada aviso "Unsigned Add-In".
+
+DESINSTALAR
+  %LOCALAPPDATA%\AddinsVENTAS\Desinstalar-Addins-VENTAS.cmd  (no toca GCP_PLUGIN).
+
+Registro del actualizador: %LOCALAPPDATA%\AddinsVENTAS\actualizar.log

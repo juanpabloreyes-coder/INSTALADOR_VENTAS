@@ -1,0 +1,9 @@
+{
+  "_equipos_xlsx": "Mismo Excel de equipos que los reportes.",
+  "equipos_xlsx": "C:\\Users\\Usuario\\DC\\ACCDocs\\GCPEASA\\GCP_TRANSFORMACIÓN_DIGITAL\\Project Files\\01_IMPLEMENTACIÓN_BIM\\0112_SQDCM\\Equipos e integrantes - VENTAS.xlsx",
+  "equipos_hoja": "Integrantes",
+  "_alias_pc": "Asignar una PC a mano: \"NOMBREPC\": \"NOMBRE DEL INTEGRANTE\", o \"\" para no asignarla a nadie. No requiere reinstalar.",
+  "alias_pc": {
+    "JUANMUNOZ": ""
+  }
+}

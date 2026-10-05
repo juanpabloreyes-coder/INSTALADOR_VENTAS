@@ -1,0 +1,2 @@
+inst_sync run
+Dashboard\Instalaciones-Ventas-Report.html
